@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Periódico Digital</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+4:wght@300;400;600&family=Bebas+Neue&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-top">
+      <span class="date-line">Jueves, 28 de mayo de 2026</span>
+      <span class="tagline">La verdad en cada línea</span>
+    </div>
+    <div class="masthead">
+      <h2 class="newspaper-title">El Diario Azul</h2>
+      <p class="subtitle">Periódico Digital · Noticias del Mundo</p>
+    </div>
+
+    <nav class="navbar">
+      <button class="hamburger-btn" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <ul class="nav-list" id="nav-menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#deportes">⚽ Deportes</a></li>
+        <li><a href="#arte">🎨 Arte</a></li>
+        <li><a href="#moda">👗 Moda</a></li>
+        <li><a href="#comida">🍽️ Comida</a></li>
+        <li><a href="#video">📺 Video</a></li>
+        <li><a href="#opinion">Opinión</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+
+      <div class="nav-overlay" id="nav-overlay"></div>
+    </nav>
+  </header>
+
+  <div class="ticker-wrap">
+    <span class="ticker-label">ÚLTIMA HORA</span>
+    <div class="ticker-track">
+      <span>🔵 Cumbre internacional de clima en Ginebra concluye con acuerdo histórico &nbsp;&nbsp;·&nbsp;&nbsp; 🔵 La selección nacional avanza a semifinales &nbsp;&nbsp;·&nbsp;&nbsp; 🔵 Nueva exposición de arte contemporáneo abre en Madrid &nbsp;&nbsp;·&nbsp;&nbsp; 🔵 Festival gastronómico reúne a chefs de 40 países &nbsp;&nbsp;·&nbsp;&nbsp; 🔵 Semana de la moda de París bate récords de asistencia</span>
+    </div>
+  </div>
+
+  <main class="main-content" id="inicio">
+
+    <section class="hero-grid">
+      <article class="hero-main">
+        <span class="category-tag cat-deportes">Deportes</span>
+        <h2>La Final del Siglo: Millones de Espectadores en Todo el Mundo</h2>
+        <p class="lead">El partido más esperado del año dejó sin aliento a los aficionados. Una remontada épica en los últimos minutos cambió la historia del deporte nacional.</p>
+        <div class="author-line">Por <strong>Carlos Méndez</strong> · Hace 2 horas</div>
+      </article>
+      <div class="hero-side">
+        <article class="side-article">
+          <span class="category-tag cat-arte">Arte</span>
+          <h3>El Museo del Prado Adquiere Obra Desconocida de Velázquez</h3>
+          <p>Un hallazgo que reescribe la historia del arte español del siglo XVII.</p>
+        </article>
+        <article class="side-article">
+          <span class="category-tag cat-moda">Moda</span>
+          <h3>Paris Fashion Week: Los 10 Looks que Definirán el Otoño</h3>
+          <p>Las casas más icónicas presentaron colecciones que mezclan nostalgia y vanguardia.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="category-section" id="deportes">
+      <div class="section-header">
+        <h2 class="section-title"><span class="section-icon">⚽</span> Deportes</h2>
+        <a href="#deportes" class="ver-mas">Ver más →</a>
+      </div>
+      <div class="cards-grid">
+        <article class="news-card">
+          <div class="card-img deportes-img"></div>
+          <div class="card-body">
+            <span class="category-tag cat-deportes">Deportes</span>
+            <h3>Récord Mundial Batido en los 100 Metros Planos</h3>
+            <p>El velocista jamaicano superó la marca que resistió 15 años con una actuación sublime.</p>
+            <span class="card-date">Hace 3 horas</span>
+          </div>
+        </article>
+        <article class="news-card">
+          <div class="card-img deportes2-img"></div>
+          <div class="card-body">
+            <span class="category-tag cat-deportes">Deportes</span>
+            <h3>La NBA Anuncia su Expansión a Europa para 2028</h3>
+            <p>Madrid y París serán las primeras ciudades europeas con franquicias oficiales de la liga.</p>
+            <span class="card-date">Hace 5 horas</span>
+          </div>
+        </article>
+        <article class="news-card">
+          <div class="card-img deportes3-img"></div>
+          <div class="card-body">
+            <span class="category-tag cat-deportes">Deportes</span>
+            <h3>Ciclismo: Etapa Reina del Tour con Final en Alto</h3>
+            <p>La montaña decidirá el liderato general en una de las etapas más exigentes de la historia.</p>
+            <span class="card-date">Hace 7 horas</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="category-section" id="arte">
+      <div class="section-header">
+        <h2 class="section-title"><span class="section-icon">🎨</span> Arte</h2>
+        <a href="#arte" class="ver-mas">Ver más →</a>
+      </div>
+      <div class="cards-grid">
+        <article class="news-card">
+          <div class="card-img arte-img"></div>
+          <div class="card-body">
+            <span class="category-tag cat-arte">Arte</span>
+            <h3>Biennale de Venecia 2026: El Arte como Acto Político</h3>
+            <p>Artistas de 60 países convergen en una edición que cuestiona los límites del arte contemporáneo.</p>
+            <span class="card-date">Ayer</span>
+          </div>
+        </article>
+        <article class="news-card">
+          <div class="card-img arte2-img"></div>
+          <div class="card-body">
+            <span class="category-tag cat-arte">Arte</span>
+            <h3>Banksy Aparece en Buenos Aires con Nueva Serie de Murales</h3>
+            <p>El misterioso artista dejó su huella en cinco barrios de la ciudad porteña durante la madrugada.</p>
+            <span class="card-date">Hace 2 días</span>
+          </div>
+        </article>
+        <article class="news-card">
+          <div class="card-img arte3-img"></div>
+          <div class="card-body">
+            <span class="category-tag cat-arte">Arte</span>
+            <h3>El Cine de Animación Japonesa Conquista los Óscar</h3>
+            <p>Tres nominaciones históricas consolidan el anime como referente del cine mundial.</p>
+            <span class="card-date">Hace 3 días</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="category-section" id="moda">
+      <div class="section-header">
+        <h2 class="section-title"><span class="section-icon">👗</span> Moda</h2>
+        <a href="#moda" class="ver-mas">Ver más →</a>
+      </div>
+      <div class="cards-grid">
+        <article class="news-card">
+          <div class="card-img moda-img"></div>
+          <div class="card-body">
+            <span class="category-tag cat-moda">Moda</span>
+            <h3>La Moda Sostenible Lidera las Pasarelas de Milán</h3>
+            <p>El lujo consciente se impone: colecciones fabricadas al 100% con materiales reciclados.</p>
+            <span class="card-date">Hace 6 horas</span>
+          </div>
+        </article>
+        <article class="news-card">
+          <div class="card-img moda2-img"></div>
+          <div class="card-body">
+            <span class="category-tag cat-moda">Moda</span>
+            <h3>Regresa el Estilo Y2K: La Generación Z Reinventa los 2000</h3>
+            <p>Cristales, metalizados y colores ácidos vuelven con fuerza a los guardarropas globales.</p>
+            <span class="card-date">Ayer</span>
+          </div>
+        </article>
+        <article class="news-card">
+          <div class="card-img moda3-img"></div>
+          <div class="card-body">
+            <span class="category-tag cat-moda">Moda</span>
+            <h3>Chanel Nombra su Primera Directora Creativa Latinoamericana</h3>
+            <p>Un hito histórico para la industria de la moda que celebra la diversidad en el diseño de alta costura.</p>
+            <span class="card-date">Hace 4 días</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="category-section" id="comida">
+      <div class="section-header">
+        <h2 class="section-title"><span class="section-icon">🍽️</span> Comida</h2>
+        <a href="#comida" class="ver-mas">Ver más →</a>
+      </div>
+      <div class="cards-grid">
+        <article class="news-card">
+          <div class="card-img comida-img"></div>
+          <div class="card-body">
+            <span class="category-tag cat-comida">Comida</span>
+            <h3>Los Mejores Restaurantes del Mundo 2026: La Lista Completa</h3>
+            <p>España lidera con tres establecimientos en el top 10 de la guía gastronómica más influyente.</p>
+            <span class="card-date">Hace 1 hora</span>
+          </div>
+        </article>
+        <article class="news-card">
+          <div class="card-img comida2-img"></div>
+          <div class="card-body">
+            <span class="category-tag cat-comida">Comida</span>
+            <h3>Tendencia: La Cocina de Fermentación Conquista los Hogares</h3>
+            <p>El kimchi, el kéfir y el miso casero protagonizan la revolución alimentaria de este año.</p>
+            <span class="card-date">Hace 8 horas</span>
+          </div>
+        </article>
+        <article class="news-card">
+          <div class="card-img comida3-img"></div>
+          <div class="card-body">
+            <span class="category-tag cat-comida">Comida</span>
+            <h3>ONU Alerta: La Dieta Mediterránea Reduce el Riesgo Cardíaco en 40%</h3>
+            <p>Un estudio con más de 500,000 participantes confirma los beneficios del aceite de oliva y las legumbres.</p>
+            <span class="card-date">Ayer</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="video-section" id="video">
+      <div class="section-header">
+        <h2 class="section-title"><span class="section-icon">📺</span> Video Destacado</h2>
+      </div>
+      <div class="video-wrapper">
+        <div class="video-container">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&modestbranding=1"
+            title="Video Destacado - El Diario Azul"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="video-info">
+          <span class="category-tag cat-deportes">Deportes</span>
+          <h3>El Mejor Gol del Año: Una Jugada que Pasará a la Historia</h3>
+          <p>Revive en exclusiva el momento exacto que paralizó los estadios y emocionó a millones de aficionados alrededor del planeta. Una combinación perfecta de técnica, velocidad y visión de juego que define una generación.</p>
+          <div class="video-meta">
+            <span>🕐 8 min 42 seg</span>
+            <span>👁️ 2.4M visualizaciones</span>
+            <span>📅 Hoy</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <h2>El Diario Azul</h2>
+        <p>Periodismo con rigor, compromiso con la verdad.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Secciones</h4>
+        <ul>
+          <li><a href="#deportes">Deportes</a></li>
+          <li><a href="#arte">Arte</a></li>
+          <li><a href="#moda">Moda</a></li>
+          <li><a href="#comida">Comida</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Acerca de</h4>
+        <ul>
+          <li><a href="#">Quiénes somos</a></li>
+          <li><a href="#">Política de privacidad</a></li>
+          <li><a href="#">Aviso legal</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 El Diario Azul · Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

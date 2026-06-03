@@ -1,0 +1,29 @@
+/* ==========================================================================
+   ESTILOS GENERALES Y MAQUETACIÓN DE "EL DIARIO AZUL"
+   ========================================================================== */
+
+/* Puedes empezar a agregar tus reglas CSS aquí abajo. 
+   Por ejemplo, fuentes, colores base de la paleta azul, estructura grid, etc. */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Serif 4', Georgia, serif;
+}
+
+.newspaper-title {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Estilos para el Menú Desplegable (Clases controladas por JS) */
+.nav-list.open {
+  /* Añade aquí tus estilos para mostrar el menú móvil */
+}
+
+.nav-overlay.active {
+  /* Añade aquí tus estilos para mostrar el fondo oscuro */
+}
+
+.hamburger-btn.active {
+  /* Añade aquí la animación del botón de hamburguesa */
+}
